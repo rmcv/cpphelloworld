@@ -1,6 +1,8 @@
 #include <iostream>
+#include "cat.h"
 
-int main()
+int main ()
 {
-  std::cout << "Hello World" << std::endl;
+  speak();
+  return 0;
 }
